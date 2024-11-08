@@ -1,52 +1,42 @@
-### CDV05 | Project Brief: Simple Developer Portfolio Website 🎨
+# Portfolio Website
+This is a responsive, single-page portfolio website for showcasing my skills, projects, and personal profile as a junior developer. The site includes sections that detail my design and development expertise, services, a brief "About Me," and links to specific project examples in my portfolio. The portfolio items link to dedicated project pages with more details and links to the relevant GitHub repositories.
 
-#### Objective
-Create a very simple developer portfolio website to showcase your projects, skills, and contact information. This project will help you demonstrate your ability to design and develop a personal website that combines design and user experience, project showcase, content quality, and technical proficiency.
 
-#### Criteria
-Your portfolio will be evaluated based on the following criteria:
+## The website is structured as follows:
 
-1. **Overall Project Quality** (CDV05)
-    - Combines design and user experience, project showcase, content quality, and technical proficiency.
+    * index.html: The main landing page with all primary sections, including Home, Services, About, and My Work.
+    * portfolio-item.html and portfolio-item2.html: Individual pages for specific projects featured in the "My Work" section.
+    * css/styles.css: Main stylesheet for custom styles.
+    * js/index.js: JavaScript functionality, including navigation and interactive elements.
+    * img/: Folder containing logo, profile picture, and project images.
 
-#### Evaluation Rubric
 
-| **Criteria** | **5 - Excellent** | **4 - Good** | **3 - Satisfactory** | **2 - Needs Improvement** | **1 - Unsatisfactory** | **0 - No Submission** |
-|--------------|-------------------|--------------|----------------------|---------------------------|------------------------|-----------------------|
-| **D3.1**: CDV05: Simple Developer Portfolio Website | **Outstanding Portfolio in every aspect.** Outstanding quality in design, user experience, project diversity, content accuracy, and technical proficiency. | **A solid Portfolio with clear strengths in most sections.** High quality across all aspects with minor areas for improvement. | **Portfolio meets basic requirements but lacks polish and refinement.** Adequate quality meeting basic requirements but lacking polish in some areas. | **Sections of the Portfolio meet basic expectations, the overall quality is subpar.** Subpar quality with notable deficiencies in multiple aspects. | **Portfolio is fundamentally flawed, with significant deficiencies across all areas.** Poor quality, failing to meet essential requirements in design, content, and technical proficiency. | **No submission** |
+## Technologies Used
+    * HTML5 & CSS3
+    * JavaScript (for interactive elements)
+    * Normalize.css (for cross-browser consistency)
+    * Font Awesome (for icons)
+    * Google Fonts (for typography)
 
-#### Project Requirements
 
-1. **Design and User Experience**
-    - Create a clean and professional design.
-    - Ensure easy navigation and accessibility.
-    - Use responsive design to make your site look good on all devices.
+## Sections
+### Header & Navigation
+    * The header includes a logo, a hamburger menu toggle, and links to different sections of the portfolio. The navigation is responsive and adapts to screen size.
 
-2. **Project Showcase**
-    - Include at least 2 project.
-    - Provide a brief description, technologies used, and a link to the project or its repository.
-    - Use images or screenshots to enhance the showcase.
+### Introduction
 
-3. **Content Quality**
-    - Write clear and concise descriptions for each section.
-    - Ensure there are no grammatical or spelling errors.
-    - Maintain a consistent and professional tone throughout the site.
+    * The Introduction section features a personal greeting, my name, and a title of "front-end dev." It also includes a profile picture.
 
-4. **Technical Proficiency**
-    - Use HTML, CSS, and optionally JavaScript to build your site.
-    - Ensure the code is clean, well-organised, and properly commented.
-    - Implement basic SEO practices, such as meta tags and descriptive URLs.
+### My Services
+    * This section highlights the key services I provide, such as Design + Development, E-Commerce, and WordPress.
 
-#### Submission Guidelines
+### About Me
+    * A section detailing my background and current focus as a junior developer, including my technical skills and experience in e-commerce and WordPress development.
 
-- Submit your project GitHub link to the CDV05 Project Tab.
-- Ensure your project is well-documented, including a README file with instructions on how to view the site locally (if not yet deployed live).
+### My Work
+    * This section showcases some of my projects. Each project links to a dedicated project page, where a GitHub icon directs to the specific GitHub repository.
 
-### Tips for Success
+### Footer
+    * The footer contains a contact link, email, and social icons, such as GitHub.
 
-- **Plan your layout**: Sketch your design on paper before you start coding.
-- **Use online resources**: Look for inspiration and tutorials to help you with design and technical challenges.
-- **Test your site**: Make sure your portfolio works on different devices and browsers.
-- **Ask for feedback**: Show your site to peers or mentors and make improvements based on their suggestions.
-
-By following this brief and focusing on each criterion, you will be able to create a simple developer portfolio that effectively showcases your skills and projects. Good luck!
+# On each project page the project link is on the github icon on the footer
